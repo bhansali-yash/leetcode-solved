@@ -5,7 +5,7 @@ class Solution {
             int m = s+(e-s)/2;
             if(s==e) return m;
             else if(arr[m+1]>arr[m]) s=m+1;
-            else  e=m; 
+            else  e=m ; 
         }
         return -1;
     }
